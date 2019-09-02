@@ -361,9 +361,7 @@ footer hr{
 	main{
 		font-size: 0.9rem;
 	}
-	.Footermenustyle{
-		max-width: 150px;
-	}
+	
 	.Contactformstyle{
 		max-width: 200px;
 	}
@@ -375,7 +373,7 @@ footer hr{
 	}
 }
 
-@media (max-width: 320px){
+@media (max-width: 420px){
 	.informationBar{
 		display: none;
 	}
@@ -393,5 +391,8 @@ footer hr{
 	}
 	.botfooter span{
 		font-size: 10px;
+	}
+	.btnmonthstyle:after{
+		right: 20px;
 	}
 }
