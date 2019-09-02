@@ -1,0 +1,397 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.btn{
+	border-radius: 0;
+}
+.active a{
+	text-shadow:1px 0px 1px #f2ce84,
+	-1px 0px 1px #f7e1b2;
+	color: #e7a419!important;
+}
+.header{
+	padding-left: 0px;
+	padding-right: 0px;
+	background: url('../img/Background.png') no-repeat;
+	background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link{
+	text-shadow: 1px 0px 1px #adbbb9,
+	-1px 0px 1px #dae1e0;
+	opacity: 1;
+	color: #0a0e20;
+}
+.container{
+	max-width: 1172px;
+}
+.bg-light{
+
+	
+	opacity: 0.4;
+}
+.navigationstyle{
+	max-width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #FFF;
+}
+
+.newsblock{
+	padding-top: 15px;
+	padding-bottom: 35px;
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: 1px 0px 1px #a6a59e;
+	color: #fff;
+}
+.mr-left{
+	margin-left: auto;
+}
+.trioalBanner{
+	margin-top: 28px;
+}
+.informationBar{
+	color: #fff;
+	text-align: right;
+	margin-top: 40px;
+}
+.informationBar span{
+	display: inline-block;
+	
+}
+.informationBar span:hover{
+	cursor: pointer;
+	color: #cccccc;
+
+}
+.informationBar span:nth-child(3){
+	padding-right: 15px;
+	
+}
+
+.emailcorp{
+	padding-right: 50px;
+	position: relative;
+}
+.phonecorp{
+	padding-right: 30px;
+	position: relative;
+}
+.emailcorp::before{
+	content: url('../img/email.png');
+	position: absolute;
+	left:-25px;
+}
+
+.emailcorp::after{
+	content: url('../img/point.png');
+	position: absolute;
+	right: 35px;
+	top: -4px
+}
+.phonecorp::before{
+	content: url('../img/phone.png');
+	position: absolute;
+	left: -25px;
+}
+.phonecorp::after{
+	content: url('../img/point.png');
+	position: absolute;
+	right: 15px;
+	top: -4px;
+}
+                                                   /*END IT */
+.email{
+	
+}
+
+                                                      /* END IT */
+.rightarrow{
+	border: solid #6690b9;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2px;
+    transform: rotate(-45deg);
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+}
+a .active{
+	color: #e7a419;
+}
+
+/*_______________________________________Main Class_________________*/
+.btnyearstyle{
+	text-shadow: 1px 0px 1px #b8c3d5
+	, -1px 0px 1px #8da0bf;
+	background-color: #00468b;
+	font-size: 22px;
+	font-weight: bold;
+	position: relative;
+	width: 100%;
+	max-width: 1140px;
+	text-align: left;
+}
+.btnyearstyle:hover{
+	background-color: #3f5383;
+}
+.btnmonthstyle{
+	position: relative;
+	font-size: 22px;
+	text-shadow: 1px 0px 1px #8797b0
+	, -1px 0px 1px #335e95;
+	color: #00468b;
+	border: none;
+	background-color: #cccccc;
+	text-align: left;
+	width: 100%;
+	max-width: 1096px;
+}
+.btnmonthstyle:after{
+	content: url('../img/plus.png');
+	position: absolute;
+	right: 40px;
+	top: 7px;
+}
+
+.btnmonthstyle:focus{
+	
+	border: none;
+	box-shadow: none;
+}
+.btnmonthstyle:active{
+	background-color: #cccccc;
+}
+.btnmonthstyle:hover{
+	color:#00468b;
+	background-color: #cccccc;
+}
+
+.btnmonthstyle:not(:disabled):not(.disabled):active:focus{
+	box-shadow: none;
+	background-color: #cccccc;
+}
+.monthposition{
+	text-align: center;
+}
+.btnyearstyle::after{
+	content: url('../img/arrow.png');
+	position: absolute;
+	right: 22px;
+}
+
+#November2017, #October2017, #September2017,
+#November2016, #October2016, #September2016,
+#November2015, #October2015, #September2015,
+#November2014, #October2014, #September2014,
+#November2013, #October2013, #September2013{
+	
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1096px;
+}
+.stylepost{
+	text-shadow: 1px 0px 1px #666666;
+	padding: 0px;
+	border: none;
+	margin-bottom: 35px;
+}
+.dateof2017{
+	font-size: 22px;
+	font-weight: bold;
+	position: relative;
+}
+.dateof2017:after{
+	content: "10/11/2017";
+	position: absolute;
+	color: #888888;
+	font-size: 11px;
+	right: 5px;
+	bottom: 5px;
+}
+.loreminformation{
+	padding-top: 15px;
+}
+.blogimagestyle img{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	width: 100%;
+	
+}
+hr{
+	border-color: #7f7f7f;
+box-sizing: content-box;
+height: 1px;
+width: 100%;
+max-width: 1096px;
+overflow: visible;
+}
+
+/*________________________Footer Style _____________________*/
+
+footer{
+	background-color: #0a0e20;
+}
+footer .btn-primary{
+	width: 200px;
+	border: none;
+	background-color: #fff;
+	color: #222222;
+	text-shadow: -1px 0px 1px #4e4e4e,
+	1px 0px 1px #898989;
+}
+footer .btn-primary:hover{
+	
+	background-color: #00468b;
+}
+.topfooterstyle{
+	text-transform: uppercase;
+	text-shadow: 1px 0px 3px #2b2e3e,
+	-1px 0px 3px #2b2e3e;
+	color: #6c6e79;
+	padding-bottom: 25px;
+}
+.form-control{
+	border-radius: 0px;
+}
+.botfooter{
+	color: #5f627a;
+	text-shadow: -1px 0px 1px #3b4061;
+	background-color: #1c244f;
+}
+.triolcorp{
+	text-align: right;
+}
+.botfooter span{
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	cursor: pointer;
+	padding-right: 20px;
+}
+footer h3 {
+	padding-top: 40px;
+	color: #fff;
+}
+footer hr{
+	border-color:#816a10;
+		
+}
+.Footermenustyle{
+	max-width: 488px;
+	width: 100%;
+}
+.Contactformstyle{
+	max-width: 520px;
+	width: 100%;
+	margin-left: auto;
+}
+
+
+/*_____________________________Media ___________________*/
+
+@media (max-width: 1000px) { 
+	.navbar-light .navbar-nav .nav-link{
+		cursor: pointer;
+	}
+	.trioalBanner{
+		text-align: center;
+	}
+	.informationBar{
+		text-align: center;
+	}
+	.topfooterstyle {
+		font-size: 12px;
+	}
+	.stylepost img{
+		max-width: 100%;
+	}
+	.botfooter span{
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-size: 11px;
+	}
+	footer h3{
+		font-size: 1.3rem;
+	}
+	.Footermenustyle{
+		max-width: 300px;
+	}
+	.Contactformstyle{
+		max-width: 350px;
+	}
+	.form-control{
+		font-size: 0.8rem;
+	}
+	footer .btn-primary{
+		font-size: 0.9rem;
+		width: 150px;
+	}
+
+}
+@media (max-width: 760px) {
+
+	.Footermenustyle{
+		max-width: 200px;
+	}
+	.Contactformstyle{
+		max-width: 250px;
+	}
+	.botfooter span{
+		font-size: 9px;
+	}
+
+} 
+@media (max-width: 550px) {
+	.informationBar{
+		font-size: 14px;
+		padding-right: 5px;
+	}
+	main{
+		font-size: 0.9rem;
+	}
+	.Footermenustyle{
+		max-width: 150px;
+	}
+	.Contactformstyle{
+		max-width: 200px;
+	}
+	footer .btn-primary{
+		width: 130px;
+	}
+	.triolcorp,.sprite {
+		text-align: center;
+	}
+}
+
+@media (max-width: 320px){
+	.informationBar{
+		display: none;
+	}
+	.topfooterstyle{
+		align-items: center;
+	}
+	.Contactformstyle{
+		margin-left: 0px;
+	}
+	.Footermenustyle{
+		max-width: 300px;
+	}
+	.Contactformstyle{
+		max-width: 350px;
+	}
+	.botfooter span{
+		font-size: 10px;
+	}
+}
